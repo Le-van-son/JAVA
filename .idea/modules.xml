@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/1.ngon ngu lap trinh java.iml" filepath="$PROJECT_DIR$/1.ngon ngu lap trinh java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Vong_lap/Vong_lap.iml" filepath="$PROJECT_DIR$/Vong_lap/Vong_lap.iml" />
     </modules>
   </component>
 </project>
