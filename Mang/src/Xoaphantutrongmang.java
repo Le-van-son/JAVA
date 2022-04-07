@@ -46,7 +46,7 @@ public class Xoaphantutrongmang {
         }
 
     static int timVitri(int[] ar, int a) {
-        int vitri = 0;
+        int vitri = -1;
         for (int i = 0; i < ar.length; i++) {
             if (a == ar[i]) {
                 vitri = i;
