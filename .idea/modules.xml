@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/LopVaDoiTuong/LopVaDoiTuong.iml" filepath="$PROJECT_DIR$/LopVaDoiTuong/LopVaDoiTuong.iml" />
       <module fileurl="file://$PROJECT_DIR$/Mang/Mang.iml" filepath="$PROJECT_DIR$/Mang/Mang.iml" />
       <module fileurl="file://$PROJECT_DIR$/Vong_lap/Vong_lap.iml" filepath="$PROJECT_DIR$/Vong_lap/Vong_lap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LopVaDoiTuong/static.iml" filepath="$PROJECT_DIR$/LopVaDoiTuong/static.iml" />
     </modules>
   </component>
 </project>
