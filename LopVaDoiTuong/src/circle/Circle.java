@@ -1,7 +1,7 @@
 package circle;
 
 public class Circle {
-    private static double radius =1.0;
+    private static double radius = 1.0;
     private String color = "red";
 
     public Circle() {
@@ -15,10 +15,9 @@ public class Circle {
         return radius;
     }
 
-
-    public void setArea(){
+    public void setArea() {
     }
-    static double getArea(){
-        return Math.PI*getRadius()*getRadius();
+    static double getArea() {
+        return Math.PI * getRadius() * getRadius();
     }
 }

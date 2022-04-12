@@ -2,7 +2,7 @@ package kethua;
 
 public class Circle {
     private double radius;
-    public String color;
+    public  String color;
 
     public Circle() {
     }
@@ -28,7 +28,15 @@ public class Circle {
         this.color = color;
     }
     public double getArea(){
-        return Math.PI*this.radius*this.radius;
+        return Math.PI*radius*radius;
+    }
+
+    @Override
+    public String toString() {
+        return "Circle{" +
+                "radius=" + radius +
+                ", color='" + color + '\'' +
+                '}';
     }
 }
 
