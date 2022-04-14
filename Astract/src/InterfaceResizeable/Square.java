@@ -1,6 +1,6 @@
 package InterfaceResizeable;
 
-public class Square extends Shape   {
+public class Square extends Shape implements Colorable  {
     public double width;
 
     public Square() {
@@ -18,7 +18,10 @@ public class Square extends Shape   {
         this.width = width;
     }
 
-
+    @Override
+    public void howTocolor() {
+        System.out.println("Color all four sides");
+    }
     @Override
     public void resize(double percent) {
         width = width*percent/100;
@@ -30,4 +33,6 @@ public class Square extends Shape   {
                 "width=" + width +
                 '}';
     }
+
+
 }

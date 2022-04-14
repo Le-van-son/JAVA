@@ -5,4 +5,6 @@ public class Shape implements Resizeable {
     public void resize(double percent) {
 
     }
+
+
 }
